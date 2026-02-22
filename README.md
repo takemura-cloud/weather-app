@@ -12,7 +12,7 @@ OpenWeather API を使用して、地名検索で現在の天気情報を表示�
 - エラー表示（都市名が見つからない場合など）
 
 ## Demo
-https://ユーザー名.github.io/リポジトリ名/
+https://takemura-cloud.github.io/weather-app/
 
 ## 制作期間
 2026年2月（1日間）
