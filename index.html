@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Search</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">地点検索</h1>
+  </header>
+
+  <main class="main">
+    <section class="search">
+      <form class="search__form" id="searchForm">
+        <label class="search__label" for="q">地名</label>
+        <div class="search__box">
+          <input class="search__input" id="q" name="q" type="text" placeholder="例：東京 / Shibuya" autocomplete="off" />
+          <button class="search__btn" type="submit">検索</button>
+        </div>
+        <p class="search__hint">※ 地名のみ対応（施設名/郵便番号は未対応）</p>
+      </form>
+    </section>
+
+    <section class="result" aria-live="polite">
+      <div class="status" id="status" hidden></div>
+
+      <article class="card" id="card" hidden>
+        <div class="card__head">
+          <h2 class="card__place" id="placeName">-</h2>
+          <p class="card__date" id="todayText">-</p>
+        </div>
+
+        <div class="card__now">
+          <div class="card__temp">
+            <span class="card__tempValue" id="tempNow">-</span>
+            <span class="card__tempUnit">℃</span>
+          </div>
+          <p class="card__desc" id="weatherText">-</p>
+          <p class="card__sub" id="subText">-</p>
+        </div>
+
+        <div class="card__daily">
+          <p class="card__dailyText" id="dailyText">-</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
