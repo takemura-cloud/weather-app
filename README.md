@@ -4,7 +4,7 @@ OpenWeather API を使用して、地名検索で現在の天気情報を表示�
 ## 使用技術
 - HTML / CSS / JavaScript
 - Fetch API
-- OpenWeather API
+- Open-Meteo API
 
 ## 機能・特徴
 - 地名で検索
