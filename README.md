@@ -1,5 +1,5 @@
 # Weather App (API Practice)
-OpenWeather API を使用して、地名検索で現在の天気情報を表示するミニアプリです。
+キー不要API（Open-Meteo） を使用して、地名検索で現在の天気情報を表示するミニアプリです。
 
 ## 使用技術
 - HTML / CSS / JavaScript
